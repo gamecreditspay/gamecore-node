@@ -36,7 +36,7 @@
   ],
   "bin": {
     "gamecore-node": "./bin/gamecore-node",
-    "litecoind": "./bin/litecoind"
+    "gamecreditsd": "./bin/gamecreditsd"
   },
   "scripts": {
     "preinstall": "./scripts/download",
@@ -49,7 +49,7 @@
   },
   "tags": [
     "litecoin",
-    "litecoind"
+    "gamecreditsd"
   ],
   "dependencies": {
     "async": "^1.3.0",
@@ -59,7 +59,7 @@
     "errno": "^0.1.4",
     "express": "^4.13.3",
     "liftoff": "^2.2.0",
-    "litecoind-rpc": "git://github.com/gamecreditspay/gamecreditsd-rpc.git",
+    "gamecreditsd-rpc": "git://github.com/gamecreditspay/gamecreditsd-rpc.git",
     "gamecore-lib": "git://github.com/gamecreditspay/gamecore-lib.git",
     "lru-cache": "^4.0.1",
     "mkdirp": "0.5.0",

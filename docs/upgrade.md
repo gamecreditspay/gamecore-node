@@ -28,7 +28,7 @@ To start reindexing add `reindex=1` during the **first startup only**.
   "port": 3001,
   "services": [
     "address",
-    "litecoind",
+    "gamecreditsd",
     "db",
     "web"
   ]
@@ -41,14 +41,14 @@ To start reindexing add `reindex=1` during the **first startup only**.
   "network": "livenet",
   "port": 3001,
   "services": [
-    "litecoind",
+    "gamecreditsd",
     "web"
   ],
   "servicesConfig": {
     "litecoin": {
       "spawn": {
         "datadir": "/home/<username>/.litecoin",
-        "exec": "/home/<username>/gamecore-node/bin/litecoind"
+        "exec": "/home/<username>/gamecore-node/bin/gamecreditsd"
       }
     }
   }

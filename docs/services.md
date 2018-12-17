@@ -44,12 +44,12 @@ var myNode = new gamecore.Node({
   network: 'regtest'
   services: [
     {
-      name: 'litecoind',
+      name: 'gamecreditsd',
       module: Litecoin,
       config: {
         spawn: {
           datadir: '/home/<username>/.litecoin',
-          exec: '/home/<username>/gamecore-node/bin/litecoind'
+          exec: '/home/<username>/gamecore-node/bin/gamecreditsd'
         }
       }
     },

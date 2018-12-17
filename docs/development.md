@@ -51,7 +51,7 @@ npm install
 cd ../gamecore-node
 npm install
 ```
-**Note**: If you get a message about not being able to download litecoin distribution, you'll need to compile litecoind from source, and setup your configuration to use that version.
+**Note**: If you get a message about not being able to download litecoin distribution, you'll need to compile gamecreditsd from source, and setup your configuration to use that version.
 
 
 We now will setup symlinks in `gamecore-node` *(repeat this for any other modules you're planning on developing)*:
@@ -66,7 +66,7 @@ ln -s ~/bitcoind-rpc
 And if you're compiling or developing litecoin:
 ```bash
 cd ../bin
-ln -sf ~/litecoin/src/litecoind
+ln -sf ~/litecoin/src/gamecreditsd
 ```
 
 ## Run Tests
@@ -112,17 +112,17 @@ Edit `gamecore-node.json` with something similar to:
   "network": "livenet",
   "port": 3001,
   "services": [
-    "litecoind",
+    "gamecreditsd",
     "web",
     "insight-api",
     "insight-ui",
     "<additional_service>"
   ],
   "servicesConfig": {
-    "litecoind": {
+    "gamecreditsd": {
       "spawn": {
         "datadir": "/home/<youruser>/.litecoin",
-        "exec": "/home/<youruser>/litecoin/src/litecoind"
+        "exec": "/home/<youruser>/litecoin/src/gamecreditsd"
       }
     }
   }
