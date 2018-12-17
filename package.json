@@ -4,10 +4,10 @@
   "author": "BitPay <dev@bitpay.com>",
   "version": "3.1.11",
   "main": "./index.js",
-  "repository": "git://github.com/gamecredits-project/gamecore-node.git",
-  "homepage": "https://github.com/gamecredits-project/gamecore-node",
+  "repository": "git://github.com/gamecreditspay/gamecore-node.git",
+  "homepage": "https://github.com/gamecreditspay/gamecore-node",
   "bugs": {
-    "url": "https://github.com/gamecredits-project/gamecore-node/issues"
+    "url": "https://github.com/gamecreditspay/gamecore-node/issues"
   },
   "contributors": [
     {
