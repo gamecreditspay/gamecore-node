@@ -4,15 +4,15 @@
   "author": "BitPay <dev@bitpay.com>",
   "version": "3.1.11",
   "main": "./index.js",
-  "repository": "git://github.com/litecoin-project/gamecore-node.git",
-  "homepage": "https://github.com/litecoin-project/gamecore-node",
+  "repository": "git://github.com/gamecredits-project/gamecore-node.git",
+  "homepage": "https://github.com/gamecredits-project/gamecore-node",
   "bugs": {
-    "url": "https://github.com/litecoin-project/gamecore-node/issues"
+    "url": "https://github.com/gamecredits-project/gamecore-node/issues"
   },
   "contributors": [
     {
       "name": "Charlie Lee",
-      "email": "coblee@litecoin.org"
+      "email": "coblee@gamecredits.org"
     },
     {
       "name": "Christopher Jeffrey"
@@ -48,7 +48,7 @@
     "coveralls": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- --recursive -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "tags": [
-    "litecoin",
+    "gamecredits",
     "gamecreditsd"
   ],
   "dependencies": {

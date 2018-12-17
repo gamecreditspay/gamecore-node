@@ -48,7 +48,7 @@ var myNode = new gamecore.Node({
       module: Litecoin,
       config: {
         spawn: {
-          datadir: '/home/<username>/.litecoin',
+          datadir: '/home/<username>/.gamecredits',
           exec: '/home/<username>/gamecore-node/bin/gamecreditsd'
         }
       }

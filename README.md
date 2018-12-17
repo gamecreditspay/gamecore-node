@@ -2,10 +2,10 @@ Litecore Node
 ============
 
 [![NPM Package](https://img.shields.io/npm/v/gamecore-node.svg?style=flat-square)](https://www.npmjs.org/package/gamecore-node)
-[![Build Status](https://img.shields.io/travis/litecoin-project/gamecore-node.svg?branch=master&style=flat-square)](https://travis-ci.org/litecoin-project/gamecore-node)
-[![Coverage Status](https://img.shields.io/coveralls/litecoin-project/gamecore-node.svg?style=flat-square)](https://coveralls.io/r/litecoin-project/gamecore-node)
+[![Build Status](https://img.shields.io/travis/gamecredits-project/gamecore-node.svg?branch=master&style=flat-square)](https://travis-ci.org/gamecredits-project/gamecore-node)
+[![Coverage Status](https://img.shields.io/coveralls/gamecredits-project/gamecore-node.svg?style=flat-square)](https://coveralls.io/r/gamecredits-project/gamecore-node)
 
-A Litecoin full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Litecoin Core with additional indexing](https://github.com/litecoin-project/gamecore-litecoin) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
+A Litecoin full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Litecoin Core with additional indexing](https://github.com/gamecredits-project/gamecore-gamecredits) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
 ## Install
 
@@ -14,7 +14,7 @@ npm install -g gamecore-node
 gamecore-node start
 ```
 
-Note: For your convenience, we distribute bitcoind binaries for x86_64 Linux and x86_64 Mac OS X. Upon npm install, the binaries for your platform will be downloaded. For more detailed installation instructions, or if you want to compile the project yourself, then please see the Bitcore branch of [Litecoin Core with additional indexing](https://github.com/litecoin-project/gamecore-litecoin).
+Note: For your convenience, we distribute bitcoind binaries for x86_64 Linux and x86_64 Mac OS X. Upon npm install, the binaries for your platform will be downloaded. For more detailed installation instructions, or if you want to compile the project yourself, then please see the Bitcore branch of [Litecoin Core with additional indexing](https://github.com/gamecredits-project/gamecore-gamecredits).
 
 ## Prerequisites
 
@@ -58,11 +58,11 @@ There are several add-on services available to extend the functionality of Bitco
 
 ## Contributing
 
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/litecoin-project/gamecore/blob/master/CONTRIBUTING.md) file.
+Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/gamecredits-project/gamecore/blob/master/CONTRIBUTING.md) file.
 
 ## License
 
-Code released under [the MIT license](https://github.com/litecoin-project/gamecore-node/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/gamecredits-project/gamecore-node/blob/master/LICENSE).
 
 Copyright 2016 The Litecoin Core Developers
 

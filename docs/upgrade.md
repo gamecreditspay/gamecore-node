@@ -23,7 +23,7 @@ To start reindexing add `reindex=1` during the **first startup only**.
 **Before**:
 ```json
 {
-  "datadir": "/home/<username>/.litecoin",
+  "datadir": "/home/<username>/.gamecredits",
   "network": "livenet",
   "port": 3001,
   "services": [
@@ -45,9 +45,9 @@ To start reindexing add `reindex=1` during the **first startup only**.
     "web"
   ],
   "servicesConfig": {
-    "litecoin": {
+    "gamecredits": {
       "spawn": {
-        "datadir": "/home/<username>/.litecoin",
+        "datadir": "/home/<username>/.gamecredits",
         "exec": "/home/<username>/gamecore-node/bin/gamecreditsd"
       }
     }

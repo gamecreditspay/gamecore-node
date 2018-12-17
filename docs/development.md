@@ -18,14 +18,14 @@ git clone git@github.com:<yourusername>/gamecore-node.git
 git clone git@github.com:<yourusername>/gamecore-lib.git
 ```
 
-To develop litecoin or to compile from source:
+To develop gamecredits or to compile from source:
 
 ```bash
-git clone git@github.com:<yourusername>/litecoin.git
+git clone git@github.com:<yourusername>/gamecredits.git
 git fetch origin <branchname>:<branchname>
 git checkout <branchname>
 ```
-**Note**: See litecoin documentation for building litecoin on your platform.
+**Note**: See gamecredits documentation for building gamecredits on your platform.
 
 
 ## Install Development Dependencies
@@ -51,7 +51,7 @@ npm install
 cd ../gamecore-node
 npm install
 ```
-**Note**: If you get a message about not being able to download litecoin distribution, you'll need to compile gamecreditsd from source, and setup your configuration to use that version.
+**Note**: If you get a message about not being able to download gamecredits distribution, you'll need to compile gamecreditsd from source, and setup your configuration to use that version.
 
 
 We now will setup symlinks in `gamecore-node` *(repeat this for any other modules you're planning on developing)*:
@@ -63,10 +63,10 @@ rm -rf bitcoind-rpc
 ln -s ~/bitcoind-rpc
 ```
 
-And if you're compiling or developing litecoin:
+And if you're compiling or developing gamecredits:
 ```bash
 cd ../bin
-ln -sf ~/litecoin/src/gamecreditsd
+ln -sf ~/gamecredits/src/gamecreditsd
 ```
 
 ## Run Tests
@@ -121,8 +121,8 @@ Edit `gamecore-node.json` with something similar to:
   "servicesConfig": {
     "gamecreditsd": {
       "spawn": {
-        "datadir": "/home/<youruser>/.litecoin",
-        "exec": "/home/<youruser>/litecoin/src/gamecreditsd"
+        "datadir": "/home/<youruser>/.gamecredits",
+        "exec": "/home/<youruser>/gamecredits/src/gamecreditsd"
       }
     }
   }
@@ -141,7 +141,7 @@ ln -s ~/insight-api
 ln -s ~/insight-ui
 ```
 
-Make sure that the `<datadir>/litecoin.conf` has the necessary settings, for example:
+Make sure that the `<datadir>/gamecredits.conf` has the necessary settings, for example:
 ```
 server=1
 whitelist=127.0.0.1
@@ -152,7 +152,7 @@ spentindex=1
 zmqpubrawtx=tcp://127.0.0.1:29332
 zmqpubhashblock=tcp://127.0.0.1:29332
 rpcallowip=127.0.0.1
-rpcuser=litecoin
+rpcuser=gamecredits
 rpcpassword=local321
 ```
 
