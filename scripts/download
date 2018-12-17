@@ -5,9 +5,9 @@ set -e
 root_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/.."
 platform=`uname -a | awk '{print tolower($1)}'`
 arch=`uname -m`
-version="0.14.2"
-url="https://github.com/gamecreditspay/gamecore-gamecredits/releases/download"
-tag="v0.14.2.1-gamecore-rc2"
+version="0.15.3"
+url="https://github.com/gamecredits-project/GameCredits/releases/download"
+tag="Release 0.15.3"
 
 if [ "${platform}" == "linux" ]; then
     if [ "${arch}" == "x86_64" ]; then
