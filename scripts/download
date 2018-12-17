@@ -7,7 +7,7 @@ platform=`uname -a | awk '{print tolower($1)}'`
 arch=`uname -m`
 version="0.15.3"
 url="https://github.com/gamecredits-project/GameCredits/releases/download"
-tag="Release 0.15.3"
+tag="Release%200.15.3"
 
 if [ "${platform}" == "linux" ]; then
     if [ "${arch}" == "x86_64" ]; then
