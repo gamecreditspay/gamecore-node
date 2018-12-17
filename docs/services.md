@@ -45,7 +45,7 @@ var myNode = new gamecore.Node({
   services: [
     {
       name: 'gamecreditsd',
-      module: Litecoin,
+      module: Gamecredits,
       config: {
         spawn: {
           datadir: '/home/<username>/.gamecredits',
@@ -82,7 +82,7 @@ A new service can be created by inheriting from `Node.Service` and implementing 
 - `Service.prototype.getPublishEvents()` - Describes which events can be subscribed to for this service, useful to subscribe to events over the included web socket API.
 - `Service.prototype.setupRoutes()` - A service can extend HTTP routes on an express application by implementing this method.
 
-The `package.json` for the service module can either export the `Node.Service` directly, or specify a specific module to load by including `"litecoreNode": "lib/gamecore-node.js"`.
+The `package.json` for the service module can either export the `Node.Service` directly, or specify a specific module to load by including `"gamecoreNode": "lib/gamecore-node.js"`.
 
 Please take a look at some of the existing services for implementation specifics.
 

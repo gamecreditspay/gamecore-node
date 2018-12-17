@@ -1,11 +1,11 @@
-Litecore Node
+Gamecore Node
 ============
 
 [![NPM Package](https://img.shields.io/npm/v/gamecore-node.svg?style=flat-square)](https://www.npmjs.org/package/gamecore-node)
 [![Build Status](https://img.shields.io/travis/gamecredits-project/gamecore-node.svg?branch=master&style=flat-square)](https://travis-ci.org/gamecredits-project/gamecore-node)
 [![Coverage Status](https://img.shields.io/coveralls/gamecredits-project/gamecore-node.svg?style=flat-square)](https://coveralls.io/r/gamecredits-project/gamecore-node)
 
-A Litecoin full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Litecoin Core with additional indexing](https://github.com/gamecredits-project/gamecore-gamecredits) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
+A Gamecredits full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Gamecredits Core with additional indexing](https://github.com/gamecredits-project/gamecore-gamecredits) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
 ## Install
 
@@ -14,7 +14,7 @@ npm install -g gamecore-node
 gamecore-node start
 ```
 
-Note: For your convenience, we distribute bitcoind binaries for x86_64 Linux and x86_64 Mac OS X. Upon npm install, the binaries for your platform will be downloaded. For more detailed installation instructions, or if you want to compile the project yourself, then please see the Bitcore branch of [Litecoin Core with additional indexing](https://github.com/gamecredits-project/gamecore-gamecredits).
+Note: For your convenience, we distribute bitcoind binaries for x86_64 Linux and x86_64 Mac OS X. Upon npm install, the binaries for your platform will be downloaded. For more detailed installation instructions, or if you want to compile the project yourself, then please see the Bitcore branch of [Gamecredits Core with additional indexing](https://github.com/gamecredits-project/gamecore-gamecredits).
 
 ## Prerequisites
 
@@ -26,7 +26,7 @@ Note: For your convenience, we distribute bitcoind binaries for x86_64 Linux and
 
 ## Configuration
 
-Litecore includes a Command Line Interface (CLI) for managing, configuring and interfacing with your Litecore Node.
+Gamecore includes a Command Line Interface (CLI) for managing, configuring and interfacing with your Gamecore Node.
 
 ```bash
 gamecore-node create -d <bitcoin-data-dir> mynode
@@ -64,7 +64,7 @@ Please send pull requests for bug fixes, code optimization, and ideas for improv
 
 Code released under [the MIT license](https://github.com/gamecredits-project/gamecore-node/blob/master/LICENSE).
 
-Copyright 2016 The Litecoin Core Developers
+Copyright 2016 The Gamecredits Core Developers
 
 - bitcore: Copyright (c) 2013-2015 BitPay, Inc. (MIT License)
 - bitcoin: Copyright (c) 2009-2015 Bitcoin Core Developers (MIT License)
